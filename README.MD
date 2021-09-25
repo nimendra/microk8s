@@ -12,6 +12,7 @@ microk8s kubectl -n kube-system describe secret $token
 ```
 
 ## 4. deploy services (apple/banana) and Ingress
+https://matthewpalmer.net/kubernetes-app-developer/articles/kubernetes-ingress-guide-nginx-example.html
 
 ## 5. Test
 From host machine, ip address on http and https should load up
